@@ -104,7 +104,7 @@ function searchMovies(query, callback) {
         return keywordObj.id;
       });
       var keywordsString = keywordIDs.join("|");
-      
+      console.log(keywordsString);
       discoverMovies(render, keywordsString);
     }
   });
